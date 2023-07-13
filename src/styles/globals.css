@@ -1,0 +1,163 @@
+body {
+  font-family: "-apple-system,system-ui,BlinkMacSystemFont," Segoe UI ",Roboto,"
+    Helvetica Neue ",sans-serif" !important;
+  font-size: 14px !important;
+  background: #f5f5f5;
+  margin: 0;
+}
+
+.main-container{
+  height: calc(100vh - 96px);
+  padding: 16px;
+  overflow: auto;
+}
+
+.header-margin{
+  margin:0px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.selected-table-row td {
+  background: #283593;
+  color: #fff;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.selected-side-menu-item {
+  background-color: #009688 !important;
+  color: #ffff !important;
+}
+
+.loading-dialog > div > div {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.loading {
+  color: #fff;
+  padding-top: 8px;
+}
+
+.header-menu-icon {
+  padding: 20px 24px !important;
+  color: #000 !important;
+  background-color: white !important;
+  border-radius: 0 !important;
+}
+
+.custom-grid.ag-theme-alpine {
+  --ag-selected-row-background-color: #2196f3;
+  --ag-selected-row-foreground-color: #fff;
+  --ag-odd-row-background-color: #efefef;
+}
+.custom-grid.ag-theme-alpine .ag-row-selected {
+  color: #fff;
+}
+.custom-grid.ag-theme-alpine .ag-header {
+  background-color: #009688;
+}
+
+.custom-grid.ag-theme-alpine .ag-header-cell {
+  color: #fff;
+}
+
+.custom-grid.ag-theme-alpine .ag-header-icon,
+.custom-grid.ag-theme-alpine .ag-header-icon:hover {
+  color: #fff;
+}
+
+.card-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  filter: grayscale(100%);
+}
+
+.card-disabled .MuiCardContent-root {
+  color: gray;
+}
+
+::-webkit-scrollbar {
+  background-color: #f5f5f5;
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2196f3;
+  background-image: -webkit-gradient(
+    linear,
+    0 0,
+    0 100%,
+    color-stop(0.5, rgba(255, 255, 255, 0.2)),
+    color-stop(0.5, transparent),
+    to(transparent)
+  );
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #efefef;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.px-0 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.py-0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.ml-1 {
+  margin-left: 8px !important;
+}
+
+.ml-2 {
+  margin-left: 16px !important;
+}
+
+.mr-1 {
+  margin-right: 8px !important;
+}
+
+.mr-2 {
+  margin-right: 16px !important;
+}
+.in-active-tab {
+  color: #fd8f6d !important;
+}
+.checklist-tab.active {
+  color: #2196f3 !important;
+}
+
+.dialogheight {
+  height: 50vh !important;
+  width: 550px !important;
+  /* border-bottom: 1px solid gray; */
+
+  @media (max-height: 736px) {
+    height: 40vh !important;
+    width: 550px;
+  }
+}
+.text-white {
+  color: #fff !important;
+}
+.no-border{
+  border: none !important;
+}
